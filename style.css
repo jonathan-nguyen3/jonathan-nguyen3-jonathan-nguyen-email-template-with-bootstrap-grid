@@ -1,0 +1,83 @@
+html {
+    height:100%;
+}
+body {
+    font-size: small;
+    height:100%;
+}
+.container-fluid {
+    padding: 0%;
+    height:100%;
+}
+.nav-pane {
+    background-color:#524e4e;
+    color: #f7f8e9;
+    padding: 3vw;
+    line-height: 2em;
+}
+
+.msg-pane {
+    background-color:#f5f1e4;
+    color:#4d4541;
+    padding: 2vw;
+}
+
+.reading-pane {
+    background-color: #f5f5f0;
+    color: #4d4541;
+    padding:5vw;
+}
+h3 {
+    color: black;
+}
+h4 {
+    color: black;
+}
+.msg-header {
+    font-size:x-small;
+}
+.form-control {
+    height: 25px;
+    font-size: small;
+    border: 0px none;
+}
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+a:hover {
+    color: currentColor;
+    font-weight: bold;
+    text-decoration: none;
+}
+textarea {
+    width: 100%;
+    height:15vh;
+}
+.container-msgs {
+
+    padding: 1em;
+}
+.container-msgs:hover{
+    background-color: #fffffa;
+    border-radius: 5px;
+    padding: 1em;
+    box-shadow: 2px 2px 4px #919191;
+}
+.container-msg-selected {
+    background-color: #fffffa;
+    border-radius: 5px;
+    padding: 1em;
+    box-shadow: 2px 2px 4px #919191;
+}
+.alignleft {
+    float: left;
+    width:50%;
+    text-align:left;
+    font-weight: bold;
+  }
+.alignright {
+   float: left;
+   width:50%;
+   text-align:right;
+  }
